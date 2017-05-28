@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+        <link rel="shortcut icon" href="crap/yellow.ico"/>
+		<title>ROOM | one heartless song </title>
+        
+        <script src=//code.jquery.com/jquery-3.2.1.min.js></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+        <script src="typed.js" type="text/javascript"></script>
+      <!--type -->
+      <script>
+    document.addEventListener('DOMContentLoaded', function(){
+
+        Typed.new("#typed", {
+            stringsElement: document.getElementById('typed-strings'),
+            typeSpeed: 600,
+            backDelay: 5000,
+            loop: false,
+            contentType: 'html', // or text
+            // defaults to null for infinite loop
+            loopCount: null,
+            callback: function(){ foo(); },
+            resetCallback: function() { newTyped(); }
+            });
+
+            var resetElement = document.querySelector('.reset');
+            if(resetElement) {
+            resetElement.addEventListener('click', function() {
+                document.getElementById('typed')._typed.reset();
+                });
+            }
+
+          });
+
+          function newTyped(){ /* A new typed object */ }
+
+          function foo(){ console.log("Callback"); }
+        
+
+      </script>
+      <!--type -->
+
+      
+    <link rel='stylesheet' type='text/css'  href='style.css'/>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    	</head>
+	<body>
+      
+    
+        <div class='fixed'>
+        
+      
+        <div class='map'>
+          <div id='title'><span>one<br>heartless<br>song</span></div>
+            <div id='room_map'>
+            <img id='room' src='crap/room.png'>
+            <div id='location'></div>
+          </div>
+          
+          <!--moving-->
+        <div class="movingtop">
+        <div class='next'>
+          <div id="next_arrow"></div>
+
+        </div>
+        <div class='back'>
+          <a href="https://imhidinginroom.github.io/room.github.io/">
+          <div id='back_arrow'></div></a>
+        </div>
+        </div>  
+          <!--type-->
+        <div>
+        <span id='start_type'></span>
+        <div class="type-wrap">
+            <div id="typed-strings">
+                <span>17</span>
+                <span>.</span>
+                <span>17</span>
+                
+            </div>
+            <span id="typed" style="white-space:pre;"></span>
+        </div>
+        </div> 
+          <div>
+          <p id="contact">talk to me</p>  
+          <span id="mail">im.hiding.in.room@gmail.com</span>  
+          <p id="info">twenty. student. live with parents<br>hochiminh city vietnam<br>name is tran thanh thao</p>
+          </div>  
+           
+        </div>
+        </div>  
+        <!-- contain -->
+        <div class="container">
+
+        <p id="content">Start the morning like there is nothing wrong<br>A smooth voice like a well known heartwarming song<br>Come to my bed whisper in my ear<br>One heartless song<br>(Who is she)<br><br>When her husband left the room<br>When her proud son continued his flow to the sea<br>Anger at me - Never enough of these corrections<br>"I know there's more than a well known heartwarming song"<br>(Finally)<br><br>Completely lost when the responsible tasks are all done<br>She's that blank stare as the displaying reflections<br>Try hard to sing along to those well known songs<br>Yell at me - My role is to listen<br>(This is My Mom speaking)<br><br>"(My Mom)<br>Just a human being<br>with a heart beating<br>But she is all the best<br>a person should be"<br><br>In every word telling she's better (she smiles)<br>For every stainless steel ruler (we buy)<br><br>Yes - Another day is on<br>A smooth voice like a well known heartwarming song<br>As long as there's a dress and jewelry<br>A flawless cover-up of an unknown heartfelt song<br>(Oh a comedy)<br><br>"Will you let time leave you alone<br>I know your fear of silence (phobia phobia)<br>Silence ain't the trash talking<br>If you're listening - It's your own unknown heartfelt song<br>(I'm not around all day long)"<br><br>I try to go to sleep - try to go to sleep<br>Just another nightmare in the daylight<br>I know what it is that My Mom meant inside<br>Just that it's not visible to these eyes<br>(It's alright)<br><br>How a human being<br>with a heart beating<br>A reflection of a stranger<br>A stranger to a heart beating<br><br>Come closer our preferred desire (in our sight)<br>For every stainless steel ruler (we buy)<br><br>Washed her off too many times<br>like a well known heartwarming song<br>Bought it all still she's buying more<br>She wants a better cover song<br>(She knows she wants)<br><br>The fear of disapproval and rejection<br>She's locked My Mom in silence<br>Weaker My Mom gets - the unexpected uncontrollable yelll<br>The bleeding - the beating - and the trying<br>(There is more than just a long day working)<br><br>(Hear that?)<br>This is one heartless song<br>Enough. I'm not strong<br>For counting on me, you're wrong<br>I ruin our luxury empire<br>No worth from the price<br>No need to convince yourself to buy<br>It's time to cry<br>for your twenty years wasting time<br><br>"One heartless song for a stranger<br>One heartfelt song for My Mom"<br>One heartless song for a stranger<br>One heartfelt song for My Mom<br><br>No return - No refund - Choices made<br>For all the washing machines (we've got)</p>
+        
+        
+        <div class='footer'>
+          <p>ROOM | ONE FUCKED UP KID</p>
+        </div>
+        
+        <div class="mapbottom">
+        <div class="movingbottom"></div>
+          
+          <div class='nextbottom'>
+          <div id="next_arrow"><a href=#></a></div>
+          </div>
+      
+          <div class='backbottom'>
+          <a href="https://imhidinginroom.github.io/room.github.io/">
+          <div id='back_arrow'></div></a>
+        </div>
+        </div>  
+        </div>    
+      
+      
+        <script>
+        setInterval(function(){blink()}, 10);
+        function blink() {
+        $("#location").fadeTo('slow', 0.5).fadeTo('slow', 1.0);
+        };
+        function loadswitharrow(){
+        }
+
+          $(document).ready(function(){
+              $(".map").animate({
+                 opacity: 1,
+                 left: "+=10",
+              }, 900, function() {
+              });
+            
+              $(".container").animate({
+                 opacity: 1,
+                 
+              }, 1200, function() {
+              });
+            
+              $("#next_tag").hide();
+              $(".map").addClass("fixed");            
+
+              $('#contact').click(function(){
+                  $('#mail, #info').fadeToggle();
+              })
+          });
+        </script>          
+	</body>
+</html>
